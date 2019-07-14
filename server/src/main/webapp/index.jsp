@@ -50,7 +50,7 @@ Here you can experiment with the stock Jolt Transforms without having to downloa
 </div>
 </div> <!-- row 1 -->
 
-<form id="transformForm" role="form" action="/transform" method="post">
+<form id="transformForm" role="form" action="${pageContext.request.contextPath}/transform" method="post">
 
 <div class="row"> <!-- row 2 -->
 <div class="col-lg-4 col-md-6 col-sm-12">
